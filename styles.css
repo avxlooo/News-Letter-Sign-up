@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+body {
+  background-color: #292a33;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  width: 660px;
+  height: 460px;
+  border-radius: 30px;
+  background-color: white;
+  padding: 25px;
+
+  display: flex;
+}
