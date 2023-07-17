@@ -25,13 +25,17 @@ body {
   padding: 45px;
 }
 
+#wrapper img {
+  margin-bottom: 25px;
+}
+
 #wrapper h1 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 900;
   letter-spacing: -2.3px;
-  line-height: -6rem;
+  line-height: -50px;
   color: #292a33;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 #wrapper p {
@@ -42,4 +46,16 @@ body {
 
 #wrapper p span {
   font-weight: 500;
+}
+
+button {
+  height: 43px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #292a33;
+  color: white;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  margin-top: 20px;
 }
