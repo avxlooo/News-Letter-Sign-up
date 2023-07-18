@@ -26,14 +26,14 @@ body {
 }
 
 #wrapper img {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 #wrapper h1 {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 900;
   letter-spacing: -2.3px;
-  line-height: -50px;
+  line-height: -200;
   color: #292a33;
   margin-bottom: 15px;
 }
@@ -57,5 +57,11 @@ button {
   font-weight: 700;
   outline: none;
   border: none;
-  margin-top: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-image: linear-gradient();
 }

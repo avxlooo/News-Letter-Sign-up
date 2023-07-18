@@ -25,11 +25,12 @@ body {
   padding: 25px;
 
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .content {
   margin-left: 25px;
+  width: 260px;
 }
 
 #wrapper h1 {
@@ -65,18 +66,30 @@ body {
 
 form {
   margin-top: 25px;
+  width: 100%;
 }
 
-form label {
+form .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form label,
+form p {
   font-size: 12px;
   font-weight: 700;
-  display: block;
   margin-bottom: 8px;
+}
+
+form p {
+  color: #ff6155;
+  /* display: none; */
 }
 
 form input {
   height: 43px;
-  width: 256px;
+  width: 100%;
   padding: 0 18px;
   border-radius: 5px;
   outline: none;
@@ -85,15 +98,22 @@ form input {
   color: #8d9099;
 }
 
+form input.error {
+  border: solid 2px #ff6155;
+  background-color: #ffdcd9;
+  color: #ff6155;
+}
+
 form button {
   height: 43px;
-  width: 256px;
+  width: 100%;
   border-radius: 5px;
   background-color: #292a33;
   color: white;
   font-weight: 700;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .content {
