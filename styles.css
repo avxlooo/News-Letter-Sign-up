@@ -84,7 +84,7 @@ form p {
 
 form p {
   color: #ff6155;
-  /* display: none; */
+  display: none;
 }
 
 form input {
@@ -93,9 +93,17 @@ form input {
   padding: 0 18px;
   border-radius: 5px;
   outline: none;
-  border: solid 2px #292a33;
+  border: solid 1px #292a33;
   margin-bottom: 8px;
   color: #8d9099;
+}
+
+form input:focus {
+  border: solid 2px #292a33;
+}
+
+form input:valid {
+  border: solid 2px #48f725;
 }
 
 form input.error {
