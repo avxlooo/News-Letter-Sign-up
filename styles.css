@@ -102,9 +102,9 @@ form input:focus {
   border: solid 2px #292a33;
 }
 
-form input:valid {
+/* form input:valid {
   border: solid 2px #48f725;
-}
+} */
 
 form input.error {
   border: solid 2px #ff6155;

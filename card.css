@@ -59,9 +59,9 @@ button {
   border: none;
   margin-top: 20px;
   cursor: pointer;
-  transition: all 200ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 button:hover {
-  background-image: linear-gradient();
+  background-image: linear-gradient(to left, #ff3e83, #ff9f2e);
 }
